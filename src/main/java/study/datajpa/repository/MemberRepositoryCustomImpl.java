@@ -7,7 +7,9 @@ import javax.persistence.EntityManager;
 import java.util.List;
 
 @RequiredArgsConstructor
-public class MemberRepositoryImpl implements MemberRepositoryCustom{
+// 이름 꼭 맞출 것.
+// "상속받은 interface 이름" + "Impl"
+public class MemberRepositoryCustomImpl implements MemberRepositoryCustom{
 
     private final EntityManager em;
 
