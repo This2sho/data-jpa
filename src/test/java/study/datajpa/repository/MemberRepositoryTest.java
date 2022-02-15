@@ -30,6 +30,9 @@ public class MemberRepositoryTest {
     MemberRepository memberRepository;
 
     @Autowired
+    MemberQueryRepository memberQueryRepository;
+
+    @Autowired
     TeamRepository teamRepository;
 
     @PersistenceContext
